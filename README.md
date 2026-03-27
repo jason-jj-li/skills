@@ -1,1 +1,1 @@
-This is the Claude code skills for review， data analysis, and vibe-research.
+This is the Claude code skills for review, data analysis, and vibe-research.
