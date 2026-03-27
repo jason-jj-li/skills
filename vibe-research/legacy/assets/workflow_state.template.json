@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "paper_family_id": "",
+  "paper_id": "",
+  "version": 1,
+  "current_state": "INIT",
+  "history": [
+    {
+      "state": "INIT",
+      "timestamp": "",
+      "note": "initialized"
+    }
+  ],
+  "last_updated": "",
+  "gates": {
+    "standards_first_passed": false,
+    "target_gate_passed": false,
+    "ranking_passed": false,
+    "execution_passed": false,
+    "style_gate_passed": false,
+    "content_focus_gate_passed": false,
+    "citation_architecture_gate_passed": false,
+    "triad_review_passed": false,
+    "internal_review_passed": false,
+    "external_review_passed": false,
+    "decision_recorded": false
+  }
+}

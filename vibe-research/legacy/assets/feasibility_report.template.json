@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "generated_at": "",
+  "contract_file": "",
+  "source": "pubmed_eutils",
+  "policy_file": "",
+  "policy_used": {},
+  "candidates": [
+    {
+      "id": "topic-01",
+      "topic": "",
+      "query": "",
+      "metrics": {
+        "all_count": 0,
+        "meta_count": 0,
+        "sample_size": 0,
+        "effect_signal_rate": 0.0,
+        "age_fit_rate": 0.0
+      },
+      "scores": {
+        "novelty": 0.0,
+        "evidence_sufficiency": 0.0,
+        "extractability": 0.0,
+        "journal_fit": 0.0,
+        "publishability": 0.0
+      },
+      "flags": {
+        "innovation_ready": false,
+        "quality_ready": false,
+        "innovation_and_quality_ready": false
+      },
+      "suggested_mode": "meta_analysis|systematic_review_no_meta|scoping_review|evidence_gap_map",
+      "no_go_for_submission_meta": false,
+      "notes": []
+    }
+  ],
+  "ranking": [
+    "topic-01"
+  ]
+}

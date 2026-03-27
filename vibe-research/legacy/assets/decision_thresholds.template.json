@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "thresholds": {
+    "submission_meta_min_all_count": 15,
+    "submission_meta_min_effect_signal_rate": 0.25,
+    "top_tier_submission_meta_min_all_count": 25,
+    "top_tier_submission_meta_min_effect_signal_rate": 0.35,
+    "min_publishability_score": 0.8,
+    "min_novelty_score": 0.85,
+    "min_journal_fit_score": 0.55,
+    "max_prior_meta_count_for_innovation": 1,
+    "submission_style_score_min": 80,
+    "top_tier_style_score_min": 85,
+    "submission_prose_score_min": 80,
+    "top_tier_prose_score_min": 85,
+    "submission_content_focus_score_min": 80,
+    "top_tier_content_focus_score_min": 85,
+    "submission_citation_architecture_score_min": 80,
+    "top_tier_citation_architecture_score_min": 85
+  },
+  "weights": {
+    "novelty": 0.2,
+    "evidence_sufficiency": 0.35,
+    "extractability": 0.3,
+    "journal_fit": 0.15
+  }
+}

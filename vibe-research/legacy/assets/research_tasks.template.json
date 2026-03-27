@@ -1,0 +1,163 @@
+{
+  "tasks": [
+    {
+      "id": "vr-000",
+      "question": "Complete Gate-0 target profile from current journal/standard requirements",
+      "step": "standards",
+      "priority": "high",
+      "status": "todo",
+      "owner": "shared",
+      "passes": false,
+      "artifacts": [
+        "process/standards_snapshot.md",
+        "process/target_gate.json",
+        "process/target_gate.md"
+      ],
+      "notes": "Must pass before retrieval/analysis for journal-targeted work."
+    },
+    {
+      "id": "vr-001",
+      "question": "Define one scoped research question and population",
+      "step": "knowledge_gap",
+      "priority": "high",
+      "status": "todo",
+      "owner": "shared",
+      "passes": false,
+      "artifacts": [],
+      "notes": "Avoid multi-question runs in one manuscript."
+    },
+    {
+      "id": "vr-002",
+      "question": "Retrieve and screen literature with verification-first workflow",
+      "step": "literature",
+      "priority": "high",
+      "status": "todo",
+      "owner": "ai",
+      "passes": false,
+      "artifacts": [
+        "process/search_mapping.json",
+        "process/phase1_pubmed_results.json",
+        "process/phase2_screened.json",
+        "process/citation_db.json",
+        "process/references.bib"
+      ],
+      "notes": "Set passes=true only after retrieval and citation consistency checks pass."
+    },
+    {
+      "id": "vr-003",
+      "question": "Run feasibility scoring and lock synthesis mode",
+      "step": "routing",
+      "priority": "high",
+      "status": "todo",
+      "owner": "shared",
+      "passes": false,
+      "artifacts": [
+        "process/feasibility_report.json",
+        "process/mode_decision.json",
+        "process/no_go_topics.json"
+      ],
+      "notes": "If go=false for requested mode, pivot before writing."
+    },
+    {
+      "id": "vr-004",
+      "question": "Build exemplar benchmark and writing blueprint for target venue",
+      "step": "planning",
+      "priority": "high",
+      "status": "todo",
+      "owner": "ai",
+      "passes": false,
+      "artifacts": [
+        "process/exemplar_benchmark.json",
+        "process/writing_blueprint.json",
+        "process/writing_outline.md"
+      ],
+      "notes": "Mandatory for top-tier targets."
+    },
+    {
+      "id": "vr-005",
+      "question": "Draft manuscript core narrative and analytical results",
+      "step": "writeup",
+      "priority": "high",
+      "status": "todo",
+      "owner": "shared",
+      "passes": false,
+      "artifacts": [
+        "manuscript/paper.qmd",
+        "figures/"
+      ],
+      "notes": "Center the narrative on field progress and findings, not pipeline logs."
+    },
+    {
+      "id": "vr-006",
+      "question": "Run dynamic style gate and prose-quality gate",
+      "step": "writeup_gates",
+      "priority": "high",
+      "status": "todo",
+      "owner": "ai",
+      "passes": false,
+      "artifacts": [
+        "process/style_gate_contract.json",
+        "process/style_gate_report.json",
+        "process/prose_quality_review.json"
+      ],
+      "notes": "Both verdicts must pass before DECISION/PUBLISH claims."
+    },
+    {
+      "id": "vr-007",
+      "question": "Run content-focus and citation-architecture gates",
+      "step": "writeup_gates",
+      "priority": "high",
+      "status": "todo",
+      "owner": "ai",
+      "passes": false,
+      "artifacts": [
+        "process/content_focus_review.json",
+        "process/citation_architecture_review.json"
+      ],
+      "notes": "Fail if writing reads as technical report instead of content-first synthesis."
+    },
+    {
+      "id": "vr-008",
+      "question": "Plan/apply main-text and supplement split",
+      "step": "writeup_gates",
+      "priority": "medium",
+      "status": "todo",
+      "owner": "shared",
+      "passes": false,
+      "artifacts": [
+        "process/main_supplement_split_plan.json",
+        "manuscript/supplement_methods_appendix.qmd"
+      ],
+      "notes": "Publish gate requires technical-heavy sections to be split when flagged."
+    },
+    {
+      "id": "vr-009",
+      "question": "Run triad review (editor, methods, domain) and revision loop",
+      "step": "review",
+      "priority": "high",
+      "status": "todo",
+      "owner": "shared",
+      "passes": false,
+      "artifacts": [
+        "process/triad_review.json",
+        "decision_summary.md"
+      ],
+      "notes": "Required for top-tier submission quality bar."
+    },
+    {
+      "id": "vr-010",
+      "question": "Compile PDF and finalize reproducibility package",
+      "step": "publish",
+      "priority": "high",
+      "status": "todo",
+      "owner": "shared",
+      "passes": false,
+      "artifacts": [
+        "manuscript/paper.pdf",
+        "outputs/manifest.json",
+        "process/gate_contracts.json"
+      ],
+      "notes": "Do not mark complete until all required contracts pass."
+    }
+  ]
+}

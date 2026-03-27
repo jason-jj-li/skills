@@ -1,0 +1,14 @@
+{
+  "candidates": [
+    {
+      "id": "topic-01",
+      "topic": "ACEs and multimorbidity in middle-aged and older adults",
+      "query": "(\"adverse childhood experiences\"[Title/Abstract] OR ACEs[Title/Abstract] OR \"childhood adversity\"[Title/Abstract]) AND multimorbidity[Title/Abstract] AND (older[Title/Abstract] OR aging[Title/Abstract] OR elderly[Title/Abstract] OR middle-aged[Title/Abstract])"
+    },
+    {
+      "id": "topic-02",
+      "topic": "ACEs and frailty in older adults",
+      "query": "(\"adverse childhood experiences\"[Title/Abstract] OR ACEs[Title/Abstract] OR \"childhood adversity\"[Title/Abstract]) AND frailty[Title/Abstract] AND (older[Title/Abstract] OR aging[Title/Abstract] OR elderly[Title/Abstract] OR middle-aged[Title/Abstract])"
+    }
+  ]
+}

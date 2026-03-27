@@ -1,0 +1,100 @@
+# Lancet Public Health Journal Specification
+# Extracted from https://www.thelancet.com/public-health/information/authors
+
+journal:
+  name: "The Lancet Public Health"
+  publisher: "Elsevier"
+  impact_factor: 24.0
+  article_types:
+    - "Research Article"
+    - "Review"
+    - "Comment"
+    - "Correspondence"
+  url: "https://www.thelancet.com/public-health/information/authors"
+
+manuscript_specs:
+  word_count:
+    research_article:
+      main_text: { min: 2500, max: 3500 }
+      abstract: { max: 350 }
+    review:
+      main_text: { min: 3000, max: 5000 }
+      abstract: { max: 350 }
+
+  abstract:
+    format: "structured"
+    required_sections:
+      - "Background"
+      - "Methods"
+      - "Findings"
+      - "Interpretation"
+    optional_sections:
+      - "Funding"
+
+  research_in_context:
+    required: true
+    panel_position: "before_introduction"
+    subsections:
+      - "Evidence Before This Study"
+      - "Added Value of This Study"
+      - "Implications of All the Available Evidence"
+    word_count: { max: 600 }
+
+  figures:
+    max_count: 8
+    resolution: { min: 300, unit: "dpi" }
+    formats: ["TIFF", "EPS", "PDF"]
+    color_mode: "RGB"
+    panel_labeling: "A, B, C..."
+    caption_style: "brief title above, legend below"
+
+  tables:
+    max_count: 5
+    style: "horizontal rules only (no vertical lines)"
+    footnote_style: "superscript letters"
+
+  references:
+    style: "Vancouver (numbered)"
+    max_count: 50
+    format: "standard Vancouver"
+    doi_required: true
+
+  supplementary:
+    allowed: true
+    max_files: 10
+    peer_reviewed: true
+
+declarations:
+  required:
+    - name: "Funding"
+      allow_none: true
+    - name: "Competing Interests"
+      format: "ICMJE disclosure form"
+    - name: "Data Sharing"
+      required: true
+    - name: "Author Contributions"
+      format: "CRediT taxonomy recommended"
+    - name: "Acknowledgments"
+      allow_none: true
+
+ethical_requirements:
+  ethics_approval: required
+  informed_consent: required
+  trial_registration: "if applicable (clinical trials)"
+
+submission_checklist:
+  - "Cover letter explaining importance"
+  - "Author agreement form"
+  - "ICMJE conflict of interest forms"
+  - "Ethics approval documentation"
+  - "Patient consent (if applicable)"
+  - "Data availability statement"
+
+formatting:
+  file_format: "Word or LaTeX"
+  font: "Times New Roman or Arial"
+  font_size: 12
+  line_spacing: "double"
+  margins: "1 inch"
+  page_numbers: true
+  line_numbers: true

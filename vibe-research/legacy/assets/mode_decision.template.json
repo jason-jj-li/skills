@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "generated_at": "",
+  "contract_file": "",
+  "feasibility_file": "",
+  "decision": {
+    "selected_candidate_id": "",
+    "selected_mode": "meta_analysis|systematic_review_no_meta|scoping_review|evidence_gap_map|protocol",
+    "go": true,
+    "pivot_required": false,
+    "requested_mode": "auto",
+    "require_innovation_and_quality": false,
+    "checks": {
+      "innovation_ready": false,
+      "quality_ready": false,
+      "innovation_and_quality_ready": false
+    },
+    "reason": []
+  },
+  "policy_source": "",
+  "policy_used": {},
+  "thresholds": {
+    "submission_meta_min_all_count": 15,
+    "submission_meta_min_effect_signal_rate": 0.25
+  },
+  "top_tier_thresholds": {
+    "submission_meta_min_all_count": 25,
+    "submission_meta_min_effect_signal_rate": 0.35,
+    "min_publishability_score": 0.8,
+    "min_novelty_score": 0.85,
+    "min_journal_fit_score": 0.55,
+    "max_prior_meta_count_for_innovation": 1
+  },
+  "execution_policy": {
+    "stop_after_routing": false,
+    "reason": "continue|goal_mismatch_or_infeasible"
+  },
+  "next_actions": [
+    "Lock standards and proceed with selected mode."
+  ]
+}

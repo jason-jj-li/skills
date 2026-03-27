@@ -1,0 +1,190 @@
+{
+  "schema_version": 2,
+  "gate_state": "EXECUTE",
+  "generated_at": "",
+  "workdir": "",
+  "contracts": [
+    {
+      "id": "standards_snapshot_present",
+      "description": "process/standards_snapshot.md exists and is non-empty",
+      "required": true,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "target_gate_artifacts_present",
+      "description": "target gate JSON+MD artifacts exist",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "target_gate_verdict_pass",
+      "description": "target gate verdict is pass",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "exemplar_benchmark_present",
+      "description": "process/exemplar_benchmark.json or .md exists for top-tier targets",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "pipeline_manifest_present",
+      "description": "outputs/manifest.json or outputs/refined_manifest.json exists",
+      "required": true,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "pipeline_contracts_passed",
+      "description": "all manifest contract checks are true",
+      "required": true,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "writing_outline_present",
+      "description": "process/writing_blueprint.json and process/writing_outline.md exist for journal-targeted projects",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "style_gate_artifacts_present",
+      "description": "style gate contract and report artifacts exist",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "style_gate_verdict_pass",
+      "description": "style gate verdict is pass",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "prose_quality_artifacts_present",
+      "description": "prose quality JSON+MD artifacts exist",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "prose_quality_verdict_pass",
+      "description": "prose quality verdict is pass",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "content_focus_artifacts_present",
+      "description": "content focus JSON+MD artifacts exist",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "content_focus_verdict_pass",
+      "description": "content focus verdict is pass",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "citation_architecture_artifacts_present",
+      "description": "citation architecture JSON+MD artifacts exist",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "citation_architecture_verdict_pass",
+      "description": "citation architecture verdict is pass",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "main_supplement_split_artifacts_present",
+      "description": "main/supplement split plan artifacts exist",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "main_supplement_split_verdict_pass",
+      "description": "main/supplement split gate verdict is pass",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "triad_review_artifacts_present",
+      "description": "triad review artifacts exist",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "triad_review_verdict_pass",
+      "description": "triad review verdict is pass",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "internal_review_artifacts_present",
+      "description": "internal review artifacts exist",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "external_review_artifacts_present",
+      "description": "external review artifacts exist",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    },
+    {
+      "id": "publish_artifacts_present",
+      "description": "manuscript PDF and metadata exist",
+      "required": false,
+      "status": "unknown",
+      "evidence": [],
+      "details": ""
+    }
+  ],
+  "summary": {
+    "required_total": 0,
+    "required_passed": 0,
+    "failed_required": 0,
+    "all_required_passed": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "updated_at": "",
+  "entries": [
+    {
+      "topic": "",
+      "requested_mode": "meta_analysis",
+      "blocked_for_tier": "submission_ready",
+      "reason": "",
+      "replacement_mode": "systematic_review_no_meta",
+      "source_mode_decision_file": "",
+      "timestamp": ""
+    }
+  ]
+}

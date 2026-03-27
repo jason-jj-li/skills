@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "generated_at": "",
+  "request_text": "",
+  "intent": {
+    "deliverable_tier": "explore|draft|submission_ready|unknown",
+    "primary_goal": "knowledge_synthesis|hypothesis_exploration|publication|unknown",
+    "target_journal": "",
+    "reporting_standards": [],
+    "method_preference": "meta_analysis|systematic_review|scoping_review|evidence_gap_map|auto",
+    "quality_bar": "exploratory|draft|submission|top_tier_submission|unknown",
+    "research_requirement": "balanced|innovation_priority|quality_priority|innovation_and_quality",
+    "language": "en|zh|mixed|unknown"
+  },
+  "constraints": {
+    "must_compile_pdf": false,
+    "must_be_submission_ready": false,
+    "allow_mode_switch": true,
+    "stop_on_goal_mismatch": false,
+    "require_innovation_and_quality": false
+  },
+  "gate_policy": {
+    "target_gate_required": false,
+    "content_focus_gate_required": false,
+    "citation_architecture_gate_required": false,
+    "main_supplement_split_required": false,
+    "triad_review_required": false,
+    "writing_superloop_required": false,
+    "convergence_policy": "light|standard|strict",
+    "max_major_revision_rounds": 1
+  },
+  "acceptance_criteria": [
+    "Selected method is feasible for available evidence density.",
+    "Chosen standards are recorded in process/standards_snapshot.md.",
+    "Final deliverable level matches user intent."
+  ]
+}
